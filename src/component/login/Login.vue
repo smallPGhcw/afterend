@@ -1,7 +1,6 @@
 <template>
     <div>
-        this is test file
-        <router-view></router-view>
+        登录页面
     </div>
 </template>
 

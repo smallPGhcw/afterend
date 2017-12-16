@@ -27,7 +27,7 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(git|png|jpg|jpeg|svg)$/,
+                test: /\.(git|png|jpg|jpeg|svg|wtf)$/,
                 use: [{
                     loader: 'url-loader',
                     options: {

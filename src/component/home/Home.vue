@@ -1,6 +1,6 @@
 <template>
     <div>
-        this is test file
+        首页
         <router-view></router-view>
     </div>
 </template>

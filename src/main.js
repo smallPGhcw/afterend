@@ -1,13 +1,13 @@
 import Vue from 'vue';
+import VueRouter from 'vue-router';
+Vue.use(VueRouter);
 
 // 导入根组件
 import AppComponent from './component/App.vue';
+import routerConfig from "./router";
 
-// 把根组件渲染到指定的视图当中
 new Vue({
     el: '.app',
-    render: function (createElement) {
-        return createElement(AppComponent);
-    },
-    // render: c => c(AppComponent)
+    render: c => c(AppComponent),
+    router:new VueRouter(routerConfig)
 });
